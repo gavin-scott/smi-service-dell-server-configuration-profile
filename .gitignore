@@ -3,3 +3,5 @@
 /.classpath
 .gradle/
 .settings/
+.idea/
+*.iml

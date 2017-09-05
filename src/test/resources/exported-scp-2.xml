@@ -1,0 +1,17 @@
+<SystemConfiguration Model="PowerEdge C6320" ServiceTag="64BMW52" TimeStamp="Mon Aug 14 18:21:24 2017">
+
+ <Component FQDD="BIOS.Setup.1-1">
+    <!-- <Attribute Name="SecureBoot">Disabled</Attribute> -->
+    <!-- <Attribute Name="SecureBootPolicy">Standard</Attribute> -->
+    <!-- <Attribute Name="AssetTag"></Attribute> -->
+    <Attribute Name="NumLock">On</Attribute>
+    <Attribute Name="ErrPrompt">Disabled</Attribute>
+    <Attribute Name="ForceInt10">Disabled</Attribute>
+    <Attribute Name="BiosBootSeq">NIC.Embedded.2-1-1, Optical.iDRACVirtual.1-1, NIC.Embedded.1-1-1, Floppy.iDRACVirtual.1-1, HardDisk.List.1-1</Attribute>
+    <Attribute Name="HddSeq">RAID.Slot.1-1</Attribute>
+    <!-- <Attribute Name="OneTimeBiosBootSeq"></Attribute> -->
+    <!-- <Attribute Name="OneTimeUefiBootSeq"></Attribute> -->
+    <!-- <Attribute Name="OneTimeHddSeq"></Attribute> -->
+</Component>
+
+</SystemConfiguration>

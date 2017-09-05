@@ -3,11 +3,7 @@
  */
 package com.dell.isg.smi.service.server.configuration.model;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlValue;
+import javax.xml.bind.annotation.*;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
@@ -19,6 +15,7 @@ import io.swagger.annotations.ApiModelProperty;
 @JsonInclude(Include.NON_DEFAULT)
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = { "value" })
+@XmlRootElement(name = "Attribute")
 public class Attribute {
 
     @ApiModelProperty(value = "Attribute Name", required = true)

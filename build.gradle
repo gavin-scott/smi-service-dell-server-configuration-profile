@@ -102,6 +102,8 @@ dependencies {
 	compile group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.7.0'
 	compile group: 'org.eclipse.persistence', name: 'org.eclipse.persistence.moxy', version: '2.7.0-RC1'
 	compile group: 'com.jayway.jsonpath', name: 'json-path', version: '2.4.0'
+
+	testCompile("org.springframework.boot:spring-boot-starter-test")
 }
 
 test {

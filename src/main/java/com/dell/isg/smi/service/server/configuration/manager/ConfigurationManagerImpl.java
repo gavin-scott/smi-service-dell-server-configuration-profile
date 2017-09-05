@@ -59,6 +59,7 @@ import com.dell.isg.smi.wsman.model.XmlConfig;
 import com.jayway.jsonpath.Configuration;
 import com.jayway.jsonpath.JsonPath;
 import com.jayway.jsonpath.TypeRef;
+import org.w3c.dom.NodeList;
 
 /**
  * @author Muqeeth_Kowkab
@@ -99,6 +100,10 @@ public class ConfigurationManagerImpl implements IConfigurationManager {
 	private static final Logger logger = LoggerFactory.getLogger(ConfigurationManagerImpl.class.getName());
 
 	public ConfigurationManagerImpl() {
+	}
+
+	public void setComponentPredicate(ComponentPredicate componentPredicate) {
+		this.componentPredicate = componentPredicate;
 	}
 
 	@Override
